@@ -1,0 +1,79 @@
+.Table
+    {
+        display: table;
+    }
+    .Second
+	{ 
+    display: table-cell;
+    background-color: teal;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+        width:4em; 
+        z-index: 4;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+
+    }
+    .First
+	{ 
+    display: table-cell;
+    background-color: purple;
+        border: solid;
+        border-width: medium ;
+        height: 7em;
+        z-index: 4;
+		width:4em; 
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .play {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        z-index: 20;
+        background: red;
+      }
+      .play2 {
+        position: absolute;
+        left : 70px;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        z-index: 20;
+        background: red;
+      }
+      .play3 {
+        position: absolute;
+        top: 100px;
+        top: 100px;
+        left : 140px;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        z-index: 20;
+        background: red;
+      }
+      .play4 {
+        position: absolute;
+        left : 200px;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        z-index: 20;
+        background: red;
+      }
+
+
+
+
