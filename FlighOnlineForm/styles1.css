@@ -1,0 +1,204 @@
+<style type="text/css">
+
+    .Table
+    {
+        display: table;
+    }
+    .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+
+    }
+	 .Heading2
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: left;
+
+    }
+    .Row
+    {
+        display: table-row;
+    }
+    .Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: medium;
+		width: 39em;
+        padding-left: 335px;
+        padding-right: 336px;
+    }
+	.First 
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+        padding-left: 50px;
+        padding-right: 50px;
+		width: 10em;
+	}
+	.Second1
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:7em; 
+        padding-left: 20px;
+        padding-right: 20px;
+		
+	}
+	.Second
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:4em; 
+        padding-left: 10px;
+        padding-right: 10px;
+	
+	}
+	.Second2
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:20em; 
+        padding-left: 13px;
+        padding-right: 13px;
+	}
+	.Second2child
+	{ 
+	display: table-cell;
+		border: solid;
+		border-width: medium; 
+		padding-left: 20px;
+        padding-right: 20px;
+		width: 10em;
+		height: 4em;
+	}
+	.Third
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:96em; 
+        padding-left: 13px;
+        padding-right: 12px;
+	}
+	.Fourth
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:15em; 
+        padding-left: 13px;
+        padding-right: 13px;
+	}
+	.Fourth1
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:62em; 
+        padding-left: 13px;
+        padding-right: 12px;
+	}
+	.Fifth
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:10em; 
+        padding-left: 20px;
+        padding-right: 20px;
+	}
+	.Fifth1
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 7em;
+		width:40em; 
+        padding-left: 17px;
+        padding-right: 18px;
+	}
+	.Fifth2child
+	{ 
+	display: table-cell;
+		border: solid;
+		border-width: medium; 
+		padding-left: 20px;
+        padding-right: 20px;
+		width: 10em;
+		height: 5em;
+	}
+	.Fifth2
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 5em;
+		width:42em; 
+        padding-left: 12px;
+        padding-right: 12px;
+	}
+	.Sixth
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 5em;
+		width:15em; 
+        padding-left: 12px;
+        padding-right: 12px;
+	}
+	.Sixth2
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 5em;
+		width:79em; 
+        padding-left: 14px;
+        padding-right: 13px;
+	}
+	.Seventh
+	{ 
+	display: table-cell;
+        border: solid;
+        border-width: medium ;
+		height: 3em;
+		width:95em; 
+        padding-left: 20px;
+        padding-right: 21px;
+	}
+
+	Form input 
+	{
+		border: none;
+		background: transparent; 
+		outline: none;	
+	}
+	input {
+		width: 100%
+		box-sizing: border-box;
+		
+	}
+</style>

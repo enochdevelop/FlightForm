@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FAA Flight Plan</title>
+	<link rel="stylesheet" type="text/css" href="styles1.css">
+
+</head>
+
+<body>
+
+	<!-- First table -->
+
+	<div class="Table">
+		<div class="Heading">
+			<div class="First">
+				<p>FLIGHT PLAN</p>
+			</div>
+			<div class="Cell">
+				<p> </p>
+			</div>
+
+		</div>
+
+		<!-- second table -->
+		<form id="myForm">
+			<div class="Table">
+				<div class="Second">
+					<font size="1">
+						<p>1. Type</p>
+						<input type="radio" name="type" value="VFR"> VFR<br>
+						<input type="radio" name="type" value="IFR"> IFR<br>
+						<input type="radio" name="type" value="DVFR"> DVFR<br>
+					</font>
+
+				</div>
+				<div class="Second1">
+					<p>
+						<font size="1">2. Aircraft</font>
+					</p>
+
+					<input type="text" name="blank" id="Aircraft" placeholder="" />
+				</div>
+				<div class="Second1">
+					<p>
+						<font size="1">3. Aircraft type/ Special Equipment</font>
+					</p>
+
+					<input type="text" name="blank" id=AircraftType placeholder="" />
+					<input type="text" name="blank" id=SpecialEquipment placeholder="" />
+
+				</div>
+				<div class="Second">
+					<p>
+						<font size="1">4. True Airspeed</font>
+					</p>
+
+					<input type="text" name="blank" id="Speed" placeholder="" />
+
+				</div>
+				<div class="Second">
+					<p>
+						<font size="1">5. Departure Point</font>
+					</p>
+
+					<input type="text" name="blank" id="Departure" placeholder="" />
+
+				</div>
+				<div class="Second2">
+					<p>
+						<font size="1">6. Departure Time(Z)</font>
+					</p>
+					<div class="Table">
+						<div class="Second2child">
+							<p>
+								<font size="1">Propossed</font>
+							</p>
+
+							<input type="text" name="blank" id="prop" placeholder="" />
+
+						</div>
+						<div class="Second2child">
+							<p>
+								<font size="1">Actual</font>
+							</p>
+
+							<input type="text" name="blank" id="act" placeholder="" />
+
+						</div>
+					</div>
+				</div>
+				<div class="Second">
+					<p>
+						<font size="1">7. Cruising Altitude</font>
+					</p>
+
+					<input type="text" name="blank" id="Altitude" placeholder="" />
+
+				</div>
+
+				<!-- Third table -->
+
+				<div class="Table">
+					<div class="Third">
+						<p>
+							<font size="1">8. Route Of Flight</font>
+						</p>
+
+						<input type="text" name="blank" placeholder="" />
+
+					</div>
+				</div>
+
+				<!-- Fourth table -->
+
+				<div class="Table">
+					<div class="Fourth">
+						<p>
+							<font size="1">9. Destination (Name of Airport and City)</font>
+						</p>
+
+						<input type="text" name="blank" id="Destination" placeholder="" />
+
+					</div>
+					<div class="Fourth">
+						<p>
+							<font size="1">10. Estimated Time Enroute</font>
+						</p>
+
+						<input type="text" name="blank" id="TimeRoute" placeholder="" />
+
+					</div>
+					<div class="Fourth1">
+						<p>
+							<font size="1">11. Remarks</font>
+						</p>
+
+						<input type="text" name="blank" placeholder="" />
+
+					</div>
+				</div>
+				<!-- Fifth table -->
+
+				<div class="Table">
+					<div class="Fifth">
+						<p>
+							<font size="1">12. Fuel on board</font>
+						</p>
+						<div class="Table">
+							<div class="Fifth2child">
+								<p>
+									<font size="1">Hours</font>
+								</p>
+
+								<input type="text" name="blank" id="How" placeholder="" />
+
+							</div>
+							<div class="Fifth2child">
+								<p>
+									<font size="1">Minutes</font>
+								</p>
+
+								<input type="text" name="blank" id="Min" placeholder="" />
+
+							</div>
+						</div>
+					</div>
+					<div class="Second1">
+						<p>
+							<font size="1">13. Alternate Airport(s)</font>
+						</p>
+
+						<input type="text" name="blank" id="Airports" placeholder="" />
+
+					</div>
+
+					<div class="Fifth1">
+						<p>
+							<font size="1">14. Pilots Name, Address & Telephone Number and Home Base</font>
+						</p>
+
+						| <input type="text" name="blank" id="Info" placeholder="" />
+						| <input type="text" name="blank" id="Info2" placeholder1="" />
+						| <input type="text" name="blank" id="Info3" placeholder2="" />
+
+						<div class="Table">
+							<div class="Fifth2">
+								<p>
+									<font size="1"> Destination Contact / Telephone (Optional) </font>
+								</p>
+
+								<input type="text" name="blank" id="Num" placeholder="" />
+
+							</div>
+						</div>
+					</div>
+
+					<div class="Second">
+						<p>
+							<font size="1">15. Number Aboard</font>
+						</p>
+
+						<input type="text" name="blank" id="Abroad" placeholder="" />
+
+					</div>
+				</div>
+
+				<!-- Sixth table -->
+				<div class="Table">
+					<div class="Sixth">
+						<p>
+							<font size="1">16. Color of Aircraft</font>
+						</p>
+
+						<input type="text" name="blank" id="Col" placeholder="" />
+
+					</div>
+					<div class="Sixth2">
+						<p>
+							<font size="1">CIVIL AIRCRAFT PILOTS. FAR Part 91 requires you file an IFR flight plan to operate under
+								instrument flight rules in
+								controlled airspace. Failure to file could result in a civil penalty not to exceed $1,000 for each violation
+								(Section 901 of the
+								Federal Aviation Act of 1958, as amended). Filing of a VFR flight plan is recommended as a good operating
+								practice. See
+								also Part 99 for requirements concerning DVFR flight plans. </font>
+						</p>
+					</div>
+				</div>
+
+				<!-- Seventh table -->
+
+				<div class="Table">
+					<div class="Heading2">
+						<div class="Seventh">
+							<p> CLOSE VFR FLIGHT PLAN WITH <input type="text" id="End" name="blank" placeholder="_________________" /> FSS ON ARRIVAL</p>
+
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<button onclick="MyClear()"> Clear </button>
+				<button onclick="MySubmit()"> Submit </button>
+		</form>
+
+		<script type="text/javascript" src="valid.js">
+		</script>
+		<script type="text/javascript" src="valid1.js"></script>
+
+
+</body>
+
+</html>
